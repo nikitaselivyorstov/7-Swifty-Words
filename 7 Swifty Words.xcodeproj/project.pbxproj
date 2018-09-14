@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D41DDD12146FDA6007BEA17 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D41DDD02146FDA6007BEA17 /* level1.txt */; };
 		7DB7329D20B1B38F001066E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7329C20B1B38F001066E8 /* AppDelegate.swift */; };
 		7DB7329F20B1B38F001066E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7329E20B1B38F001066E8 /* ViewController.swift */; };
 		7DB732A220B1B38F001066E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB732A020B1B38F001066E8 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D41DDD02146FDA6007BEA17 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = level1.txt; path = "../../../Paul Hudson/HackingWithSwift-master-2/project8-files/level1.txt"; sourceTree = "<group>"; };
 		7DB7329920B1B38F001066E8 /* 7 Swifty Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7 Swifty Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB7329C20B1B38F001066E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DB7329E20B1B38F001066E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				7DB7329E20B1B38F001066E8 /* ViewController.swift */,
 				7DB732A020B1B38F001066E8 /* Main.storyboard */,
 				7DB732A320B1B391001066E8 /* Assets.xcassets */,
+				7D41DDD02146FDA6007BEA17 /* level1.txt */,
 				7DB732A520B1B391001066E8 /* LaunchScreen.storyboard */,
 				7DB732A820B1B391001066E8 /* Info.plist */,
 			);
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DB732A720B1B391001066E8 /* LaunchScreen.storyboard in Resources */,
+				7D41DDD12146FDA6007BEA17 /* level1.txt in Resources */,
 				7DB732A420B1B391001066E8 /* Assets.xcassets in Resources */,
 				7DB732A220B1B38F001066E8 /* Main.storyboard in Resources */,
 			);
@@ -290,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "main.--Swifty-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "main.--Swifty-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
